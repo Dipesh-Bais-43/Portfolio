@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dipesh Bais | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root { --primary: #0077b5; --dark: #004182; --bg: #f4f7f9; --text: #333; --card: #ffffff; }
+        body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); margin: 0; line-height: 1.6; }
+        header { background: linear-gradient(135deg, var(--dark), var(--primary)); color: white; padding: 60px 20px; text-align: center; }
+        .profile-img { width: 170px; height: 170px; border-radius: 50%; border: 5px solid rgba(255,255,255,0.3); object-fit: cover; margin-bottom: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.3); }
+        .container { max-width: 950px; margin: auto; padding: 20px; }
+        .section { background: var(--card); padding: 30px; margin-bottom: 25px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+        h2 { color: var(--primary); border-bottom: 2px solid #eee; padding-bottom: 10px; margin-bottom: 20px; font-size: 1.5rem; text-transform: uppercase; }
+        .contact-info a { color: white; text-decoration: none; margin: 0 15px; font-weight: 500; }
+        .tag { background: #e1f5fe; color: var(--dark); padding: 5px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: bold; display: inline-block; margin: 4px; border: 1px solid #b3e5fc; }
+        .item { margin-bottom: 25px; border-left: 4px solid var(--primary); padding-left: 20px; position: relative; }
+        .date { color: var(--primary); font-weight: bold; font-size: 0.9rem; display: block; margin-bottom: 5px; }
+        .btn-resume { display: inline-block; margin-top: 25px; padding: 12px 30px; background: white; color: var(--dark); border-radius: 30px; text-decoration: none; font-weight: bold; transition: 0.3s; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+        .btn-resume:hover { transform: scale(1.05); background: #f0f0f0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="profile.jpg" alt="Dipesh Bais" class="profile-img" onerror="this.src='https://ui-avatars.com/api/?name=Dipesh+Bais&background=0077b5&color=fff&size=170'">
+    <h1>Dipesh Bais</h1>
+    <p style="font-size: 1.25rem; opacity: 0.95;">Computer Science Graduate | Cybersecurity & Software Engineer</p>
+    <div class="contact-info">
+        <a href="tel:+919175524394"><i class="fas fa-phone"></i> +91 9175524394</a>
+        <a href="mailto:baisdipesh46@gmail.com"><i class="fas fa-envelope"></i> baisdipesh46@gmail.com</a>
+        <a href="https://linkedin.com/in/dipesh-bais" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    </div>
+    <a href="DB.pdf" download class="btn-resume"><i class="fas fa-file-pdf"></i> Download Resume (PDF)</a>
+</header>
+
+<div class="container">
+    <section class="section">
+        <h2><i class="fas fa-user-circle"></i> Professional Summary</h2>
+        <p>Computer Science graduate with hands-on experience in cybersecurity, software engineering, and risk management. Skilled in secure code development, threat analysis, and agile methodologies through multiple virtual internships with Fortune 500 companies. Strong foundation in security operations, vulnerability assessment, and software development lifecycle.</p>
+    </section>
+
+    <section class="section">
+        <h2><i class="fas fa-university"></i> Education</h2>
+        <div class="item">
+            <h3>Bachelor of Engineering in Computer Science</h3>
+            <p>Rashtrasant Tukadoji Maharaj Nagpur University (RTMNU) </p>
+            <span class="date">Expected June 2025 | Nagpur, India </span>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2><i class="fas fa-laptop-code"></i> Professional Experience</h2>
+        <div class="item">
+            <h3>Software Engineering Virtual Intern | J.P. Morgan (Forage)</h3>
+            <span class="date">February 2025 </span>
+            <ul>
+                <li>Executed version control management, comprehensive code review, and agile team collaboration in simulated production environments.</li>
+                <li>Developed and tested secure banking application code, implementing security best practices and ensuring compliance with financial industry standards.</li>
+                <li>Contributed to agile sprint planning and participated in code quality assessments.</li>
+            </ul>
+        </div>
+        <div class="item">
+            <h3>Cybersecurity Virtual Intern | Deloitte Australia (Forage)</h3>
+            <span class="date">February 2025 </span>
+            <ul>
+                <li>Completed structured job simulation focusing on enterprise risk assessment and advanced threat analysis for large-scale systems.</li>
+                <li>Designed comprehensive incident response plans and conducted in-depth security threat analysis to identify vulnerabilities.</li>
+                <li>Collaborated with cross-functional virtual teams to deliver actionable security improvements.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2><i class="fas fa-tools"></i> Technical Skills & Core Competencies</h2>
+        <div style="margin-bottom: 15px;">
+            <strong>Programming & Development:</strong><br>
+            <span class="tag">Software Development</span> <span class="tag">Secure Coding</span> <span class="tag">Code Review</span> <span class="tag">Version Control (Git)</span> <span class="tag">Agile</span> 
+        </div>
+        <div style="margin-bottom: 15px;">
+            <strong>Cybersecurity & Frameworks:</strong><br>
+            <span class="tag">Security Operations</span> <span class="tag">Threat Analysis</span> <span class="tag">Risk Assessment</span> <span class="tag">Incident Response</span> <span class="tag">CIA Triad</span> 
+        </div>
+        <div>
+            <strong>Tools & Technologies:</strong><br>
+            <span class="tag">Cisco Security Solutions</span> <span class="tag">Risk Mitigation Tools</span> <span class="tag">Data Visualization</span> <span class="tag">Project Management</span> 
+        </div>
+    </section>
+
+    <section class="section">
+        <h2><i class="fas fa-medal"></i> Certifications & Job Simulations</h2>
+        <div class="item">
+            <h3>Cybersecurity Foundations Certificate</h3>
+            <p>Cisco Networking Academy | February 2025 </p>
+            <p>Mastered CIA triad, authentication mechanisms, and secure network protocol implementation.</p>
+        </div>
+        <div class="tags">
+            <span class="tag">Tata Group Cybersecurity Analyst</span> <span class="tag">BCG GenAI Simulation</span> <span class="tag">Tata Data Visualisation</span> <span class="tag">Accenture Project Management</span>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2><i class="fas fa-star"></i> Key Achievements</h2>
+        <ul>
+            <li>Completed 5+ professional job simulations with leading global consulting and technology firms.</li>
+            <li>Developed expertise in secure software development lifecycle (SDLC) within banking and fintech environments.</li>
+            <li>Built strong foundation in enterprise security operations and incident response.</li>
+        </ul>
+    </section>
+</div>
+
+<footer style="text-align: center; padding: 40px; background: var(--dark); color: white;">
+    <p>© 2026 Dipesh Bais | Nagpur, Maharashtra, India </p>
+    <p>Connect: <a href="https://linkedin.com/in/dipesh-bais" style="color: #b3e5fc; text-decoration: none;">linkedin.com/in/dipesh-bais</a></p>
+</footer>
+
+</body>
+</html>
